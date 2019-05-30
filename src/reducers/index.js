@@ -3,5 +3,5 @@ import counterReducer from './counterReducer'
 
 
 export const reducers = combineReducers({
-  counters: counterReducer
+	counters: counterReducer
 })

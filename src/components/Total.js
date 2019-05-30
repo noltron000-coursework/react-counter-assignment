@@ -15,7 +15,7 @@ class Total extends Component {
 
 const mapStateToProps = (state) => {
 	return {
-		total: state.counters.reduce((acc, count) => acc + count)
+		total: state.counters.reduce((acc, obj) => acc + obj.count, 0)
 	}
 }
 
